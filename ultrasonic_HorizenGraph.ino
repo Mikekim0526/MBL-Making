@@ -18,7 +18,7 @@ void loop(){
   distance = (duration/2);
 
   if(distance<6000){
-    Serial.print(distance);
+    Serial.println(distance);
     delay(100);
   }
 }
