@@ -1,6 +1,5 @@
 #define trigPin 6
 #define echoPin 5
-int val;
 
 void setup(){
   Serial.begin(9600);
